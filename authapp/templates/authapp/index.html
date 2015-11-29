@@ -1,10 +1,19 @@
+{% load staticfiles %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>INDEX</title>
 </head>
 <body>
+    <h1>WELCOME!</h1>
+    Go to:
+    <ul>
+        <li>persons/</li>
+        <li>person/__nr__</li>
+    </ul>
 
+    <script src="{% static 'authapp/js/fblogin.js' %}"></script>
+    <script src="{% static 'authapp/js/gglogin.js' %}"></script>
 </body>
 </html>

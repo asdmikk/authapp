@@ -4,7 +4,7 @@ from .models import Person
 
 
 def index(request):
-    return HttpResponse("hello woorld!")
+    return render(request, 'authapp/index.html', {})
 
 
 def login(request):
