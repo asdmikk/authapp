@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+        <style>
+            #loginbutton {
+                height: 100px;
+                width: 150px;
+                font-size: 24px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div class="container text-center">
+            <h1>LOG IN</h1>
+            <button id="loginbutton" type="button" class="btn btn-primary">ID-card</button>
+        </div>
+
+
+        <script type="text/javascript">
+            $('#loginbutton').click(function() {
+                window.location = "/login";
+            });
+        </script>
+    </body>
+</html>
